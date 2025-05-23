@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Phalguni Ubhe | Portfolio</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-r..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Link to your external stylesheet -->
+  <link rel="stylesheet" href="styles.css" />  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script>
+      (function() {
+          emailjs.init("mxYe8X4fShw4C-WZS"); // ⚠️ Replace this with your actual public key from EmailJS account
+      })();
+  </script>
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <div class="container">
+      <h1>Phalguni Ubhe</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://www.figma.com/design/alzbKGga2UmXu2t6nT91Wl/Portfolio?node-id=0-1&t=7VDJXZYy8JTldrkK-1" target="_blank"><i class="fab fa-figma"></i> Figma Design</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2 class="slide-in">Hi, I'm Phalguni <span class="wave">👋</span></h2>
+        <p class="slide-in">BSc. Computer Science Student | Fresher</p>
+        <a href="#contact" class="get-in-touch slide-in">Get in Touch</a>
+      </div>
+      <div class="hero-image">
+        <img src="MyPhoto.jpg" alt="Phalguni Ubhe" class="slide-in" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-4 text-primary">About Me</h2>
+      <p>
+        I'm a Computer Science student with a strong foundation in programming and a passion for building efficient, user-friendly web solutions. Skilled in C, Python, Java, and experienced with tools like Git, APIs, and SQL databases, I strive to create clean, reliable, and impactful tech.
+      </p>
+      <div class="icon-row">
+        <i class="fas fa-code" title="Coder"></i>
+        <i class="fas fa-laptop-code" title="Web Developer"></i>
+        <i class="fas fa-graduation-cap" title="Student"></i>
+        <i class="fas fa-lightbulb" title="Tech Enthusiast"></i>
+      </div>
+    </div>  </section>
+  
+  <div class="section-divider"></div>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">
+        <i class="fab fa-html5"></i>
+        HTML & CSS
+      </div>
+      <div class="skill">
+        <i class="fab fa-js"></i>
+        JavaScript
+      </div>
+      <div class="skill">
+        <i class="fab fa-python"></i>
+        Python
+      </div>
+      <div class="skill">
+        <i class="fas fa-code"></i>
+        C Programming
+      </div>
+      <div class="skill">
+        <i class="fab fa-java"></i>
+        Java
+      </div>
+      <div class="skill">
+        <i class="fas fa-database"></i>
+        MySQL & PostgreSQL
+      </div>
+      <div class="skill">
+        <i class="fab fa-git-alt"></i>
+        Git & GitHub
+      </div>
+      <div class="skill">
+        <i class="fas fa-plug"></i>
+        APIs & JSON
+      </div>
+      <div class="skill">
+        <i class="fab fa-figma"></i>
+        Figma
+      </div>
+      <div class="skill">
+        <i class="fas fa-palette"></i>
+        Web Design
+      </div>
+      <div class="skill">
+        <i class="fas fa-robot"></i>
+        AI & Prompt Engineering
+      </div>
+      <div class="skill">
+        <i class="fas fa-tasks"></i>
+        Project Management
+      </div>
+    </div>  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- Portfolio -->
+  <section id="portfolio">
+    <h2 class="section-title">My Projects</h2>
+    <div class="portfolio-grid">
+      <div class="project">
+        <i class="fas fa-chart-line"></i>
+        <h3>StockStats</h3>
+        <p>Track stocks and trends. Built with Django, JS, and Yahoo Finance API.</p>
+      </div>
+      <div class="project">
+        <i class="fas fa-laptop-code"></i>
+        <h3>Personal Website</h3>
+        <p>Responsive personal site using Tailwind CSS and smooth animations.</p>
+      </div>
+      <div class="project">
+        <i class="fab fa-python"></i>
+        <h3>Python Projects</h3>
+        <p>Mini projects like calculators, data scrapers, and automations.</p>
+      </div>
+    </div>  </section>
+
+  <div class="section-divider"></div>
+
+  <!-- Resume -->
+  <section id="resume" class="resume">
+    <h2 class="section-title">Resume</h2>
+    <p class="section-text">Want to learn more about my background and experience?</p>
+    <br />
+    <div class="resume-buttons">
+      <a href="Ms. Phalguni Ubhe Resume.jpg" class="view-resume" target="_blank">
+        <i class="fas fa-eye"></i>
+        View Resume
+      </a>
+      <a href="Ms. Phalguni Ubhe Resume.pdf" class="download-resume" download>
+        <i class="fas fa-file-pdf"></i>
+        Download PDF
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p class="section-text">Have a question or want to work together?</p>
+    <div class="contact-info">
+      <div class="contact-card">
+        <i class="fas fa-phone"></i>
+        <div class="contact-info-text">
+          <span class="contact-label">Phone</span>
+          <span class="contact-value">+91 7820942682</span>
+        </div>
+      </div>
+      <div class="contact-card">
+        <i class="fas fa-envelope"></i>
+        <div class="contact-info-text">
+          <span class="contact-label">Email</span>
+          <span class="contact-value">phalguniubhe2005@gmail.com</span>
+        </div>
+      </div>
+      <div class="contact-card">
+        <i class="fas fa-map-marker-alt"></i>
+        <div class="contact-info-text">
+          <span class="contact-label">Address</span>
+          <span class="contact-value">Pune, Maharashtra, India</span>
+        </div>
+      </div>
+    </div>    <form id="contact-form" class="contact-form">
+      <div class="form-title">
+        <h3>Send Me a Message</h3>
+        <p>I'll get back to you as soon as possible</p>
+      </div>
+      
+      <div class="form-group">
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company">
+      </div>
+      
+      <div class="form-group">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>      <div class="section-divider"></div>
+      
+      <div class="button-container">
+        <button type="submit" class="submit-btn">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+      </div>
+      
+      <div id="form-status" class="form-status"></div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Phalguni Ubhe. All rights reserved.</p>
+  </footer>
+</body>
+</html>
